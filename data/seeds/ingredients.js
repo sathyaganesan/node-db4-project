@@ -9,6 +9,6 @@ exports.seed = async function (knex) {
         {name: "Egg"},
         {name: "Butter"},
         {name: "Milk"},
-        {name: "Semi Sweetened Choco Chips"}
+        {name: "Semi Sweetened Choco Chips"},
     ])
 }

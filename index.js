@@ -5,7 +5,7 @@ const recipeRoute = require("./routers/recipe");
 const ingredientsRouter = require("./routers/ingredients");
 
 const server = express();
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 4000
 
 server.use(helmet());
 server.use(express.json());
