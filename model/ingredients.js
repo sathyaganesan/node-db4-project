@@ -1,11 +1,11 @@
 const db = require("../data/config");
 
 function find() {
-    return db("recipe");
+    return db("ingredients");
 }
 
 function findById(id) {
-    return db("recipe")
+    return db("ingredients")
         .where("id", id)
         .first()
 }
